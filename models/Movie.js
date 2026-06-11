@@ -1,5 +1,4 @@
 const mongoose = require(`mongoose`);
-const { getMaxListeners } = require("../../../../backend/s43-s50/models/Enrollment");
 
 const movieSchema = new mongoose.Schema({
     title: {
